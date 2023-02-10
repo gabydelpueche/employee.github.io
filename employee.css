@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+.head{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    background-color: white;
+    width: 40vw;
+    margin-left: 30vw;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+#sub{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: dodgerblue;
+    border: 5px solid transparent;
+    cursor: pointer;
+    width: 6vw;
+    border-radius: 10px;
+    margin-left: 47vw;
+    margin-top: 5vh;
+    scale: 1.3;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+label{
+    background-color: white;
+}
+
+input{
+    background-color: white;
+}
+
+#show{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: dodgerblue;
+}
+
+#show div{
+    width: 30vw;
+    background-color: white;
+    margin-left: 2vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
